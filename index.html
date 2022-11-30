@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Einstein</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="icon" href="Imagens/Icon.png" type="image/icon type">    
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+  <main>
+    <div id="Dark"></div>
+    
+    <div class="top-menu">
+
+      <div class="Input">
+        <img class="image1" src="Imagens/lupa.png">
+        <input type="text" class="search" id="search" value="" placeholder="   buscar..." onkeypress="Enter(event)">
+
+        </div>
+
+
+        <div id="onclick" onclick="clicar()" href="#" >
+          <a href="#" id="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+              <path id="clickX" style="display: none;" d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              <path id="Menu" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+
+        <span class="menu-text" onclick="clicar()">MENU</span>
+      </a>
+    </div>
+
+      </div> 
+
+<div class="menu"></div>
+<a href=""><img class="logo" src="Imagens/Logo.png"></a>
+
+    </div>
+<div id="MenuLado"><ul class="MenuLado">
+
+    <li>Home<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>
+      </svg></li>
+    <li>Programação<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>
+      </svg></li>
+    <li>Equipe<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>
+      </svg></li>
+      <a  href="sobre nos/Index.html">
+    <li >Quem somos<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg></li></a>
+    <li>Todas Matérias<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg></li>
+
+</ul>
+</div>
+
+<div id="particles">
+    <div id="webcoderskull">
+<h1 class="titulo">JORNAL EINSTEIN</h1>
+
+<h4>Assine ja</h4><button ><a href="login/login.html">Entrar ></a></button>
+<img a src="Imagens/instagram.svg">
+<img b src="Imagens/facebook.svg">
+<img c src="Imagens/youtube.svg">
+
+    </div>
+  </div>
+
+<P id="horas">Agora São </P>
+
+
+<div class="parent2">
+<div class="dive1" href="notícias/12/Page.html">
+  <section>
+    Trabalho
+  </section>
+  <nav><a href="notícias/12/Page.html">Cientistas usam cogumelos para fazer chips biodegradáveis
+  </a> </nav>
+  <br>      <br>
+  
+  <p>*Cientistas acreditam que as peles biodegradáveis podem ser um material alternativo sustentável para utilização em eletrônica
+
+  </p>
+ </div>
+<div class="dive2">
+  <a href="notícias/08/Page.html">
+  <img a src="notícias/08/01.jpg" href="#">
+  <p>O brasileiro que pretende criar...
+  </p>
+</a>
+
+</div>
+<div class="dive3">
+  <a href="notícias/09/Page.html">
+  <img b src="notícias/09/01.jpg">
+  </a>
+<p>polêmicas por trás do Koo
+</p>
+</div>
+<div class="dive4">
+  <a href="notícias/10/Page.html">
+  <img c src="notícias/10/01.jpg">
+  </a>
+  <a href="notícias/10/Page.html"><p>Usuários idosos no Instagram
+  </p></a> </div>
+<div class="dive5"> 
+  <a href="notícias/11/Page.html">
+  <img d src="notícias/11/01.jpg">
+  </a>
+  <a href="notícias/11/Page.html"> <p>Hackers russos causaram maioria...</p> </a>
+</div>
+</div>
+    <div class="parent">
+        <div class="div1">
+            <a href="notícias/01/Page.html"><img src="notícias/01/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Medicina Tecnologica</a>
+            <br><br>
+            <a class="box-texto" href="notícias/01/Page.html">Nova radioterapia é promissora</a>
+            <br><br><br>
+            <a class="main-texto">Uma nova radioterapia, criada em Israel, oferece resultados promissores tanto no objetivo principal - eliminar tumores - quanto em preservar células saudáveis, algo que as radioterapias convencionais nem sempre conseguem fazer.</a>
+        </div>
+        <div class="div2">
+            <a href="notícias/02/Page.html"><img src="notícias/02/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia Da informação</a>
+            <br><br>
+            <a class="box-texto" href="notícias/02/Page.html">Os cientistas que alcançaram a temperatura</a>
+            <br><br><br><br>
+            <a class="main-texto">Os cientistas que alcançaram a temperatura mais baixa já registrada no universo</a>
+        </div>
+        <div class="div3">
+            <a href="notícias/03/Page.html"><img src="notícias/03/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/03/Page.html">O que nos deixa tão viciados no TikTok, segundo a Ciência</a>
+            <br><br><br><br>
+            <a class="main-texto">O que nos deixa tão viciados no TikTok, segundo a Ciência</a>
+        </div>
+        <section a></section>
+        <div class="div4">
+            <a href="notícias/04/Page.html"><img src="notícias/04/01.png" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/04/Page.html">O que nos deixa tão viciados no TikTok, segundo a Ciência</a>
+            <br><br><br><br>
+            <a class="main-texto">O ambiente digital moderno e, mais especificamente, as redes sociais transformaram completamente nossa forma de interação com o mundo.</a>
+        </div>
+        <div class="div5">
+            <a href="notícias/05/Page.html"><img src="notícias/05/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/05/Page.html">Twitter anuncia botão 'editar'</a>
+            <br><br><br>
+            <a class="main-texto">O Twitter anunciou que testará um recurso que é debatido há anos pelos usuários da rede social: um botão de edição.</a>
+        </div>
+        <div class="div6">
+            <a href="notícias/06/Page.html"><img src="notícias/06/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/06/Page.html">Elon Musk conclui compra do Twitter por US$ 44 bi
+            </a>
+            <br><br><br><br>
+            <a class="main-texto">Elon Musk completou a aquisição do Twitter por US$ 44 bilhões (cerca de R$ 235 bilhões), de acordo com veículos da imprensa internacional e de um investidor da empresa.</a>
+        </div>
+        <section b></section>
+        <div class="div7">
+            <a href="notícias/07/Page.html"><img src="notícias/07/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/07/Page.html">WhatsApp diz que nenhum governo...</a>
+            <br><br><br>
+            <a class="main-texto">O comando do WhatsApp diz que não vai "baixar a segurança" do aplicativo de mensagens por exigência de nenhum país.</a>
+        </div>
+        <div class="div8">
+            <a href=""><img src="notícias/14/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/14/Page.html">Twitter teve um aumento de 1,6 milhão</a>
+            <br><br><br><br>
+            <a class="main-texto">Apesar do otimismo, Musk está US$ 100,5 bilhões "mais pobre", a queda mais expressiva já registrada pela Bloomberg Billionaires Index, ranking que reúne as pessoas mais ricas do planeta.</a>
+        </div>
+        <div class="div9">
+            <a href=""><img src="notícias/15/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/15/Page.html">Fiat Pulse Abarth vende metade da produção para 2022
+            </a>
+            <br><br><br><br>
+            <a class="main-texto">O Pulse Abarth é a versão topo de linha do SUV e sai por R$ 149.990
+            </a>
+
+        </div>
+        <section c></section>
+        <div class="div10">
+            <a href=""><img src="notícias/16/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/16/Page.html">Notion lança recurso de inteligência artificial que escreve
+            </a>
+            <br><br><br><br>
+            <a class="main-texto">O Notion AI é uma ferramenta criada para ser uma aliada na escrita e composição de ideias
+            </a>
+        </div>
+        <div class="div11">
+            <a href=""><img src="notícias/17/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/17/Page.html">Existem encontros memoráveis nos aplicativos de namoro?
+            </a>
+            <br><br><br><br><br>
+            <a class="main-texto">Conheça histórias de dates que começaram relações duradouras a partir do Happn
+            </a>
+        </div>
+        <div class="div12">
+            <a href=""><img src="notícias/18/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/18/Page.html">Black Friday: Roku Express transforma qualquer TV em Smart TV por menos de 200
+            </a>
+            <br><br><br><br><br><br>
+            <a class="main-texto">Roku Express tem controle remoto e acesso aos principais serviços de streaming disponíveis no Brasil
+            </a>
+        </div>
+        <section d></section>
+        <div class="div13">
+            <a href=""><img src="notícias/19/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/19/Page.html">Perseverance explora leito rochoso em Marte onde busca por sinais de vida
+            </a>
+            <br><br><br><br><br>
+            <a class="main-texto">O rover da NASA, que já coletou 14 amostras de Marte, chegou ao Planeta Vermelho em fevereiro de 2021
+            </a>
+        </div>
+        <div class="div14">
+            <a href=""><img src="notícias/20/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/20/Page.html">Artemis 1: decolagem do megafoguete lunar danifica plataforma de lançamento da NASA
+            </a>
+            <br><br><br><br><br>
+            <a class="main-texto">Durante a decolagem da missão Artemis 1, tanto o foguete quanto a plataforma de lançamento foram danificados de alguma forma
+            </a>
+        </div>
+        <div class="div15">
+            <a href=""><img src="notícias/21/01.jpg" class="box-imagem" href=""></a>
+            <a class="classe">Tecnologia</a>
+            <br><br>
+            <a class="box-texto" href="notícias/21/Page.html">Vai criar um site? Design e alinhamento visual são importantíssimos
+            </a>
+            <br><br><br><br><br>
+            <a class="main-texto">O criador de sites da GoDaddy vai muito além de viabilizar a criação e a publicação de um site, ele inclui também o GoDaddy Studio
+            </a>
+        </div>
+        <section e></section>
+        <section f></section>
+        </div>
+      </main>
+</body>
+<footer>
+  <div class="container-footer">
+      <div class="row-footer">
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Empresa</h4>
+              <ul>
+                  <li><a href="#"> Quem somos </a></li>
+                  <li><a href=""> nossos serviços </a></li>
+                  <li><a href=""> política de privacidade </a></li>
+                  <li><a href=""> programa de afiliados</a></li>
+              </ul>
+          </div>
+          <!--end footer col-->
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Obter ajuda</h4>
+              <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Transporte</a></li>
+                  <li><a href="#">devoluções</a></li>
+                  <li><a href="#">Status De Pedido</a></li>
+                  <li><a href="#">Opções De Pagamento</a></li>
+              </ul>
+          </div>
+          <!--end footer col-->
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Loja online</h4>
+              <ul>
+                  <li><a href="#">Relógio</a></li>
+                  <li><a href="#">Saco</a></li>
+                  <li><a href="#">Calçado</a></li>
+                  <li><a href="#">Endereço</a></li>
+              </ul>
+          </div>
+          <!--end footer col-->
+          <!-- footer col-->
+          <div class="footer-col">
+              <h4>Se subescreva!</h4>
+              <div class="form-sub">
+                  <form>
+                      <input type="email" placeholder="Digite o seu e-mail" required>
+                      <button>subscrever</button>
+                  </form>
+              </div>
+
+              <div class="medias-socias">
+                  <a href="#"> <i class="fa fa-facebook"></i> </a>
+                  <a href="#"> <i class="fa fa-instagram"></i> </a>
+                  <a href="#"> <i class="fa fa-twitter"></i> </a>
+                  <a href="#"> <i class="fa fa-linkedin"></i> </a>
+              </div>
+
+          </div>
+          <!--end footer col-->
+      </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+
+</html>

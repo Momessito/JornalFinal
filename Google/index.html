@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" type="imagem/png" href="icon.png" />
+</head>
+<style>
+    .right * {
+        padding: 8px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .pesquisa * {
+        padding-left: 5px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .logo {
+        padding: 30px;
+    }
+
+    .buttons button {
+        margin: 6px;
+    }
+
+    .centralizer {
+        margin-top: 174px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        border: 1px solid white;
+    }
+
+    .button {
+        background-color: #303134;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0);
+        padding: 0;
+        height: 36px;
+        min-width: 54px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .border:hover {
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.236);
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.236);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.236);
+        background-color: #303134;
+        border: 1px solid #303134;
+    }
+
+    .border {
+        border: 1px solid rgb(95, 99, 104);
+        border-radius: 300px;
+    }
+
+    .footer {
+        color: #999da2;
+        font-family: Arial, Helvetica, sans-serif;
+
+        position:absolute;
+   bottom:0;
+
+    }
+
+    .left {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        padding-right: 08px;
+        padding-top: 3px;
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .top a{
+        margin-top: 10px;
+    }
+    .top{
+        bottom: 0;
+    }
+    .container {
+    min-height: calc(100vh - 100px);
+}
+</style>
+
+<body style="background-color:#202124;margin:0;overflow-x: hidden;">
+    <div class="container">
+    <div class="right"
+        style="color:white;display: flex;flex-wrap: nowrap;flex-direction: row;align-content: center;justify-content: flex-end;align-items: center;">
+        <a>Gmail</a>
+        <a style="margin-right:1px;">Imagens</a>
+        <svg style="width:25px;    padding: 14px;font-weight: 400;color:rgb(182, 182, 182);" fill="white" class="gb_Ve"
+            focusable="false" viewBox="0 0 24 24">
+            <path
+                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+            </path>
+        </svg>
+        <img src="user.jpg" style="border-radius: 100%;margin-right:1px ;" alt="">
+    </div>
+    <div class="centralizer">
+        <div class="middle"
+            style="display:flex;flex-direction: column;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;">
+            <img src="logo.png" class="logo">
+            <div class="pesquisa"
+                style="display: flex;flex-direction: row;max-width:100%;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;">
+                <div class="border"
+                    style="display:flex;max-width: 584px; width: 582px;flex-direction: row;flex-wrap: nowrap;justify-content: space-between;width:100%;border-radius: 300px;  ">
+                    <svg focusable="false" fill="white" style="height:20px;width:20px;"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                    <input
+                        style="max-width: 584px;width: 100%;height:44px;all:unset;border: 0px solid rgba(255, 255, 255, 0);color:white;width: 480px;">
+                    <img src="camera.svg" style="height:20px;width:20px;">
+                </div>
+            </div>
+        </div>
+        <div class="buttons"
+            style="display:flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;padding: 20px;">
+            <button class="button">Pesquisa Google</button>
+            <button class="button">Estou com sorte</button>
+        </div>
+    </div>
+</div>
+    <div class="fotter">
+        <div class="top"
+            style="text-align:center;vertical-align:middle;display:flex;background-color:#171717;padding:20px;border-bottom:1px solid #999da2;width:100%;padding-right:08px;padding-top:3px;color: #999da2;">
+            <a>Brasil</a>
+        </div>
+        <div class="bottom"
+            style="background-color:#171717;padding:10px;width:100%;font-family: Arial, Helvetica, sans-serif;       color: #999da2;
+    display:flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: space-between;align-items: center;">
+            <div class="right direita" style="font-family: Arial, Helvetica, sans-serif; ">
+                <a>Sobre</a>
+                <a>Publicações</a>
+                <a>Negócios</a>
+                <a>Como funciona a Pesquisa</a>
+            </div>
+            <div class="right" style="margin-right:60px;">
+                <a>Privacidade</a>
+                <a>Termos</a>
+                <a>Configurações</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
