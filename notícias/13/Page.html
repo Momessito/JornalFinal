@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cientistas usam cogumelos para fazer chips biodegradáveis</title>
+    <!-- CSS only -->
+    <link rel="icon" href="Icon.png" type="image/icon type"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+body{
+      font-family: 'Montserrat', sans-serif;
+      margin:0px;
+      padding: 0px;
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      display: flex;
+      max-height: 1000px;
+      overflow-x: hidden;
+      margin-left: 50%;
+      transform: translate(-50%);
+}
+    :-webkit-scrollbar{
+      display: none;
+}
+    .text{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 02%;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        border: 2px solid #3838381f;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        
+    }
+    .title{
+        background-color: none;
+        width: 80%;
+        height: auto;
+        margin-left: 50%;
+        transform: translate(-50%);
+        z-index: 5000 !important;
+        padding: 20px;
+    }
+    .title h1{
+        height: 35%;
+        color: white;
+        width: 75%;
+        margin-left: 48.5%;
+        transform: translate(-50%);
+        border-radius: 15px;
+        margin-top: -20%;
+        z-index: 6000;
+        position: absolute;
+        background-color: rgba(128, 128, 128, 0.514);
+        font-family: 'Zen Antique', serif;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .title img{
+       border-bottom-right-radius: 15px;
+       border-bottom-left-radius: 15px;
+    }
+    .sub-title{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1vw;
+        margin-top: 0%;
+        text-align: center;
+        color: #404040;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+        text-align: center;
+    }
+    @media screen and(max-width:700px) {
+        .title{
+        background-color: none;
+        width: 70%;
+        font-size: 30px;
+        height: auto;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 30%;
+        position: absolute;
+        
+    }
+    .text{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 2%;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        border: 2px solid #3838381f;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        
+    }
+    }
+    .image1{
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(36%) saturate(28%) hue-rotate(69deg) brightness(107%) contrast(100%);
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 5px;
+  position: absolute;
+           } 
+    .Input{
+    height: 35px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 80%;
+    position: absolute;
+          }
+  .search{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.9s;
+    background-color: #1d1d99;
+    border: none;
+    color: #1d1d99;
+    outline: none;
+    font-style: italic;
+    font-family: Arial;
+    float: left;
+    text-align: center;}
+
+    .search:focus{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #757dc7;
+    border: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    z-index: 5;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .top-menu{
+  background: rgb(26,48,145);
+  background: linear-gradient(90deg, rgba(26,48,145,1) 0%, rgba(39,71,213,1) 50%, rgba(26,48,145,1) 100%);    width: 100%;
+    height:60px;
+    position:fixed;
+    z-index: 1000;
+    margin-top: 0px;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15px
+}
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+.um{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1800px;
+}
+.image{
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    z-index: 40;
+}
+    </style>
+</head>
+<body>
+
+    <div class="top-menu">
+    <div class="Input">
+        <img class="image1 ratio ratio-16x3" src="lupa.png">
+        <input type="text" class="search" id="search" placeholder="   buscar...">
+
+        </div>
+        <a href="../../index.html"><img class="logo" src="Logo.png"></a>
+      </div> 
+<div class="tudo">
+    <div class="um">
+        <div class="inicio">
+            
+    <div class="title">
+        <img src="01.jpg" class="image img-thumbnail ">
+        <h1>
+            Cientistas usam cogumelos para fazer chips biodegradáveis
+
+        </h1>
+    </div>
+    </div>
+    <div class="sub-title">
+        Cientistas acreditam que as peles biodegradáveis podem ser um material alternativo sustentável para utilização em eletrônica
+    </div>
+            <div class="text">
+                Coletar fungos não serve apenas para trazer cogumelos para o cardápio. Uma nova pesquisa demonstrou que as peles de cogumelos podem fornecer uma alternativa biodegradável a alguns plásticos utilizados em baterias e chips de computador, tornando-os mais fáceis de reciclar.
+                Os pesquisadores da Universidade Johannes Kepler, na Áustria, estavam trabalhando em eletrônica flexível e extensível, com foco em materiais sustentáveis para substituir materiais não degradáveis, quando fizeram sua descoberta, publicada na revista “Science Advances” na sexta-feira (11).
+                “Tivemos uma participação importante do acaso”, disse à CNN Martin Kaltenbrunner, chefe da Divisão de Física de Matéria Macia da universidade e coautor do artigo.
+                Na época, um membro da equipe tentava usar materiais derivados do fungo em outras áreas. O trabalho levou ao estudo mais recente, que mostra como a pele do cogumelo Ganoderma lucidum pode funcionar como substituto do substrato utilizado nos circuitos elétricos.
+                Um substrato é a base de um circuito que isola e resfria os metais condutores que se encontram sobre ele. Normalmente, os substratos são feitos de plásticos não degradáveis, descartados após o uso.
+                A equipe, liderada por Doris Danninger e Roland Pruckner, do Instituto de Física Experimental da universidade, descobriu que o cogumelo (que normalmente cresce em árvores de madeira maciça apodrecidas na Europa e no Leste da Ásia) forma uma pele protetora compacta feita de micélio, uma rede semelhante à raiz, para proteger o seu meio de crescimento (a madeira).
+                “Eles fazem isso para se protegerem da entrada de outros fungos ou bactérias”, explicou Kaltenbrunner. Ele contou que a equipe conseguiu colher a proteção isolante descascando a pele e secando-a.
+                De acordo com o artigo da pesquisa, a pele é ligeiramente menos isolante do que o plástico, mas ainda assim agiu com segurança e sucesso nos circuitos elétricos, com uma espessura semelhante ao papel e a capacidade de suportar temperaturas superiores a 200ºC, tornando-a um bom substrato.
+                A pele tem muitas propriedades que a distinguem de outros materiais biodegradáveis. “Mas, acima de tudo, ela pode simplesmente ser cultivada a partir de madeira residual e não necessita de processamento com uso intensivo de energia ou alto custo”, completou Kaltenbrunner.
+                “O nosso micélio é uma espécie de ponto ideal porque pode durar muito tempo se for mantido seco, mesmo que, num composto doméstico normal, ele se degrade completamente no espaço de duas semanas ou menos”, acrescentou.
+                Embora o trabalho da equipe seja atualmente experimental e esteja ainda longe de ser colocado na produção em massa, os cientistas acreditam que as peles biodegradáveis podem ser um material alternativo sustentável para utilização em eletrônica que não requer circuitos elétricos duradouros, como monitores pessoais de saúde vestíveis e etiquetas (ou tags) NFC para dispositivos eletrônicos.
+                Ao mesmo tempo, eles imaginam uma utilização mais ampla se conseguirem controlar o crescimento do micélio de modo uniforme e reprodutivo.
+                Kaltenbrunner lembra que há grandes quantidades de madeira residual, como aparas de madeira da serra industrial, que é alimento para muitos cogumelos.
+                
+        
+        
+    </div>
+</div>
+</div>
+</body>
+</html>

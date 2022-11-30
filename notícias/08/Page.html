@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O brasileiro que pretende criar 'MIT da Amazônia', instituto de tecnologia voltado à floresta</title>
+    <!-- CSS only -->
+    <link rel="icon" href="Icon.png" type="image/icon type"> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+body{
+      font-family: 'Montserrat', sans-serif;
+      margin:0px;
+      padding: 0px;
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      display: flex;
+      max-height: 1000px;
+      overflow-x: hidden;
+      margin-left: 50%;
+      transform: translate(-50%);
+}
+    :-webkit-scrollbar{
+      display: none;
+}
+    .text{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 02%;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        border: 2px solid #3838381f;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        
+    }
+    .title{
+        background-color: none;
+        width: 80%;
+        height: auto;
+        margin-left: 50%;
+        transform: translate(-50%);
+        z-index: 5000 !important;
+        padding: 20px;
+    }
+    .title h1{
+        height: 35%;
+        color: white;
+        width: 75%;
+        margin-left: 48.5%;
+        transform: translate(-50%);
+        border-radius: 15px;
+        margin-top: -20%;
+        z-index: 6000;
+        position: absolute;
+        background-color: rgba(128, 128, 128, 0.514);
+        font-family: 'Zen Antique', serif;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .title img{
+       border-bottom-right-radius: 15px;
+       border-bottom-left-radius: 15px;
+    }
+    .sub-title{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1vw;
+        margin-top: 0%;
+        text-align: center;
+        color: #404040;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+        text-align: center;
+    }
+    @media screen and(max-width:700px) {
+        .title{
+        background-color: none;
+        width: 70%;
+        font-size: 30px;
+        height: auto;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-top: 30%;
+        position: absolute;
+        
+    }
+    .text{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 2%;
+        background-color: rgb(255, 255, 255);
+        width: 60%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        border: 2px solid #3838381f;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        
+    }
+    }
+    .image1{
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(36%) saturate(28%) hue-rotate(69deg) brightness(107%) contrast(100%);
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 5px;
+  position: absolute;
+           } 
+    .Input{
+    height: 35px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 80%;
+    position: absolute;
+          }
+  .search{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.9s;
+    background-color: #1d1d99;
+    border: none;
+    color: #1d1d99;
+    outline: none;
+    font-style: italic;
+    font-family: Arial;
+    float: left;
+    text-align: center;}
+
+    .search:focus{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #757dc7;
+    border: none;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    z-index: 5;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .top-menu{
+  background: rgb(26,48,145);
+  background: linear-gradient(90deg, rgba(26,48,145,1) 0%, rgba(39,71,213,1) 50%, rgba(26,48,145,1) 100%);    width: 100%;
+    height:60px;
+    position:fixed;
+    z-index: 1000;
+    margin-top: 0px;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    top: -15px
+}
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+.um{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1800px;
+}
+.image{
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    z-index: 40;
+}
+    </style>
+</head>
+<body>
+
+    <div class="top-menu">
+    <div class="Input">
+        <img class="image1 ratio ratio-16x3" src="lupa.png">
+        <input type="text" class="search" id="search" placeholder="   buscar...">
+
+        </div>
+        <a href="../../index.html"><img class="logo" src="Logo.png"></a>
+      </div> 
+<div class="tudo">
+    <div class="um">
+        <div class="inicio">
+            
+    <div class="title">
+        <img src="01.jpg" class="image img-thumbnail">
+        <h1>
+            O brasileiro que pretende criar 'MIT da Amazônia'
+
+        </h1>
+    </div>
+    </div>
+    <div class="sub-title">
+        Liderada pelo cientista Carlos Nobre, iniciativa pretende envolver vários países e estimular pesquisas com os recursos naturais disponíveis na região.</div>
+    <div class="text">
+        Um dos cientistas mais influentes de sua geração, o meteorologista brasileiro Carlos Nobre se espelha na própria história pessoal para fazer um sonho virar realidade.
+        Formado no Instituto Tecnológico da Aeronáutica (ITA), em São José dos Campos, e com doutorado no Instituto de Tecnologia de Massachusetts (MIT, na sigla em inglês), nos Estados Unidos, o pesquisador trabalha agora para criar um centro de pesquisa nos mesmos moldes no coração da Amazônia.
+        O projeto, conhecido como Instituto de Tecnologia da Amazônia (ou AmIT, na sigla em inglês), tem a pretensão de envolver não apenas o Brasil, mas todos os países que possuem porções da floresta, como Peru, Colômbia e Bolívia.
+        Nobre aponta que "não há nenhum país tropical que desenvolveu a bioeconomia baseada em recursos naturais, biodiversidade e florestas" e que essa pode ser uma grande oportunidade para o Brasil.
+        O cientista projeta que o instituto terá recursos públicos e privados e pode virar realidade nos próximos dois ou três anos.
+        
+        Os eixos fundamentais
+        
+        O site oficial da iniciativa traz mais detalhes sobre como o AmIT foi estruturado.
+        A premissa principal do instituto é a de que "o conhecimento da Amazônia deve ser fundamentado na ciência e na tecnologia direcionadas à inovação para garantir a inclusão socioeconômica no desenvolvimento da própria região".
+        Em outras palavras, a ideia é fazer pesquisas científicas para desenvolver tecnologias, descobrir potenciais usos dos recursos naturais da floresta de modo sustentável e gerar riquezas para as próprias pessoas que vivem lá.
+        Usando como exemplo o próprio ITA, o pesquisador lembra que, graças às pesquisas feitas no local, o Brasil desenvolveu a terceira maior companhia de aviação do mundo: a Embraer.
+        Além de Nobre, fazem parte do projeto do AmIT os cientistas Maritta Koch-Weser, presidente da ONG Earth3000 e Adalberto Val, do Instituto Nacional de Pesquisas da Amazônia (Inpa).
+        O meteorologista destaca que o AmIT terá cinco eixos principais.
+        "Vamos trabalhar com florestas, paisagens alteradas ou degradadas e como restaurá-las, infraestrutura sustentável de transporte e energia, biodiversidade e manejo da água", conta.
+        Segundo o pesquisador, o grande objetivo é aliar "a ciência indígena de milhares de anos, com a ciência contemporânea, de forma harmoniosa e operativa".
+        
+
+        
+    </div>
+</div>
+</div>
+</body>
+</html>
